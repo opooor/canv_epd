@@ -1,6 +1,6 @@
 export default {
   async fetch(request) {
-    const targetUrl = "https://khsj.cn/a9x3p31vq25n8lp/";
+    const targetUrl = "https://khsj.cn/12slo29qlbuxmwl/";
     const resp = await fetch(targetUrl, { redirect: "follow" });
     const headers = new Headers(resp.headers);
     // 删除防iframe嵌套头部
